@@ -59,6 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --config quickstart/config \
             --baseURL "${{ steps.pages.outputs.base_url }}/quickstart"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
