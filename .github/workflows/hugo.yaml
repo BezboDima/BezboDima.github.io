@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --config quickstart/config \
+            --config quickstart/hugo.toml \
             --baseURL "${{ steps.pages.outputs.base_url }}/quickstart"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
