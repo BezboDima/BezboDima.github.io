@@ -55,17 +55,17 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
-        working-directory: ./quickstart
+        working-directory: ./portfolio
         run: |
           hugo \
             --gc \
             --minify \
-            --config hugo.toml \
+            --config config.yaml \
             --baseURL "${{ steps.pages.outputs.base_url }}"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./quickstart/public
+          path: ./portfolio/public
 
   # Deployment job
   deploy:
