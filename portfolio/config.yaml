@@ -1,6 +1,6 @@
 baseURL: "https://bezbodima.github.io"
 languageCode: en-us
-title: Abdur Rahman
+title: Dmitry Bezborodov
 theme: PaperMod
 
 menu:
@@ -13,6 +13,10 @@ menu:
       name: Blog
       url: /blog
       weight: 20
+    - identifier: about
+      name: About
+      url: /about
+      weight: 25
     - identifier: projects
       name: Projects
       url: /projects
@@ -41,6 +45,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  IsSingle: true
 
   # for enchanced SEO
   env: production
@@ -48,11 +53,9 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: Hi 👋 I'm Abdur, a tech enthusiast who loves solving complex problems. As a Software Developer in the Backend Infrastructure team at [**Clio**](https://www.clio.com), I'm building robust systems to transform the legal experience for all. By evening, you can find me pushing the limits of my strength at the gym or whipping up my favorite recipe in the kitchen. Let's connect and create something awesome together!
-
- 
-    imageUrl: "home/casual-small-square.jpeg"
+    title: "Dmitry Bezborodov"
+    subtitle: Hi, I am Dmitry Bezborodov, upcoming student athlete at Montana State University. I enjoy learning new technilogies and solve complex problems. The lifegoal of mine is to become a successfull engineer, and try new things. I work on my machine learning and software engineering skills, while also prevailing as a student athlete. Let's connect!
+    imageUrl: "home/formal-pic-small.jpeg"
     imageWidth: 220
     imageHeight: 220
     # buttons:
@@ -69,13 +72,12 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "dimabezbo@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/dmitry-bezborodov/"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://github.com/BezboDima"
+
 
   # text search
   fuseOpts:
