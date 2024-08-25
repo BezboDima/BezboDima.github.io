@@ -9,7 +9,7 @@ url: "/about"
 
 I was born and raised and Kazkahstan, during my childhood I put a lot of effort in my tennis and grew up playing a lot of proffessional junior tournaments and was a member of national junior tennis team as well. Playing sports at thr big level helped me to get recruited to college in United States and get high quality education. Moreover, competetive spiort taugh me a value of hard work and resilience from the young age which I encorporate in all of my tasks and goals.
 
-![published notes](/home/tennis.jpg#center)
+![published notes](portfolio/static/home/tennis.jpg#center)
 
 # Bachelors Degree
 
