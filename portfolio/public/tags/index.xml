@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Dmitry Bezborodov</title>
+    <link>http://localhost:51957/tags/</link>
+    <description>Recent content in Tags on Dmitry Bezborodov</description>
+    <generator>Hugo -- 0.128.0</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:51957/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://localhost:51957/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS</title>
+      <link>http://localhost:51957/tags/aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>http://localhost:51957/tags/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certification</title>
+      <link>http://localhost:51957/tags/certification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/certification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>http://localhost:51957/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Analysis</title>
+      <link>http://localhost:51957/tags/data-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Compression</title>
+      <link>http://localhost:51957/tags/data-compression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/data-compression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Mining</title>
+      <link>http://localhost:51957/tags/data-mining/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/data-mining/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:51957/tags/data-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Structures</title>
+      <link>http://localhost:51957/tags/data-structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer</title>
+      <link>http://localhost:51957/tags/developer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/developer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer Associate</title>
+      <link>http://localhost:51957/tags/developer-associate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/developer-associate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Django</title>
+      <link>http://localhost:51957/tags/django/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DL</title>
+      <link>http://localhost:51957/tags/dl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/dl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:51957/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DVA</title>
+      <link>http://localhost:51957/tags/dva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/dva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Figma</title>
+      <link>http://localhost:51957/tags/figma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/figma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:51957/tags/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Action</title>
+      <link>http://localhost:51957/tags/github-action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/github-action/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Cloud</title>
+      <link>http://localhost:51957/tags/google-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/google-cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hosting</title>
+      <link>http://localhost:51957/tags/hosting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/hosting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>http://localhost:51957/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration</title>
+      <link>http://localhost:51957/tags/integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:51957/tags/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:51957/tags/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:51957/tags/llm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MAMP</title>
+      <link>http://localhost:51957/tags/mamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/mamp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Masking</title>
+      <link>http://localhost:51957/tags/masking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/masking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ML</title>
+      <link>http://localhost:51957/tags/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/ml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MySQL</title>
+      <link>http://localhost:51957/tags/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Next.JS</title>
+      <link>http://localhost:51957/tags/next.js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/next.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.JS</title>
+      <link>http://localhost:51957/tags/node.js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/node.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PCA</title>
+      <link>http://localhost:51957/tags/pca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/pca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>http://localhost:51957/tags/php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:51957/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PyTorch</title>
+      <link>http://localhost:51957/tags/pytorch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>http://localhost:51957/tags/react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REST API</title>
+      <link>http://localhost:51957/tags/rest-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/rest-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SAA</title>
+      <link>http://localhost:51957/tags/saa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/saa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sigma</title>
+      <link>http://localhost:51957/tags/sigma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/sigma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SnowFlake</title>
+      <link>http://localhost:51957/tags/snowflake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/snowflake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solutions Architect</title>
+      <link>http://localhost:51957/tags/solutions-architect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/solutions-architect/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spacy</title>
+      <link>http://localhost:51957/tags/spacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/spacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>http://localhost:51957/tags/sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TypeScript</title>
+      <link>http://localhost:51957/tags/typescript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/typescript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visualization</title>
+      <link>http://localhost:51957/tags/visualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/tags/visualization/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

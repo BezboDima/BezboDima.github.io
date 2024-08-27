@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Dmitry Bezborodov</title>
+    <link>http://localhost:51957/tags/python/</link>
+    <description>Recent content in Python on Dmitry Bezborodov</description>
+    <generator>Hugo -- 0.128.0</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:51957/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Face Landmarks Detection using CNN</title>
+      <link>http://localhost:51957/blog/face-landmarks-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/blog/face-landmarks-detection/</guid>
+      <description>Can computers really understand the human face?</description>
+    </item>
+    <item>
+      <title>Machine Learning - Visualized</title>
+      <link>http://localhost:51957/blog/machine-learning-visualized/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/blog/machine-learning-visualized/</guid>
+      <description>A visual approach to understand machine learning</description>
+    </item>
+    <item>
+      <title>Face Dataset Compression using PCA</title>
+      <link>http://localhost:51957/blog/face-dataset-compression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/blog/face-dataset-compression/</guid>
+      <description>Principal Component Analysis for Image Dataset Compression</description>
+    </item>
+    <item>
+      <title>Principal Component Analysis - Visualized</title>
+      <link>http://localhost:51957/blog/pca-visualized/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/blog/pca-visualized/</guid>
+      <description>Data compression using Principal Component Analysis (PCA)</description>
+    </item>
+    <item>
+      <title>IngredientLens</title>
+      <link>http://localhost:51957/projects/ingredientlens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/projects/ingredientlens/</guid>
+      <description>Application for food recognision and recepie generation</description>
+    </item>
+    <item>
+      <title>Auction</title>
+      <link>http://localhost:51957/projects/auction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/projects/auction/</guid>
+      <description>Website build on Django framework for Auction</description>
+    </item>
+    <item>
+      <title>Remote Frontend Developer Internship</title>
+      <link>http://localhost:51957/experience/sciquel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51957/experience/sciquel/</guid>
+      <description>Sciquel | New York, USA</description>
+    </item>
+  </channel>
+</rss>

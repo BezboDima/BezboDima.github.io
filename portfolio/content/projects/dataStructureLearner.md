@@ -34,7 +34,7 @@ It is an Interactive Data Structure Simulator using Java GUI that allows to crea
 
 GitHub link: - [Data Structure Simulator GitHub](https://github.com/BezboDima/IngredientLens)
 
-Below is the video Demonstrration of the user process:
+Below is the video Demonstration of the user process:
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/bRSMHrLKLU8?start=2" 
             title="YouTube video player" 

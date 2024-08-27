@@ -31,7 +31,7 @@ CI/CD processes ensure rapid updates and bug fixes through automated checks and 
 ## Final thoughts
 Working on the IngredientLens project with my team has been an immensely rewarding experience. Collaborating closely with talented individuals who share a passion for innovation and problem-solving has enriched my understanding of both technology and teamwork. Throughout our journey, I've learned invaluable skills in project management, software development, and effective communication. I am grateful for the opportunity to have worked on IngredientLens, as it not only expanded my technical knowledge but also deepened my appreciation for collaborative teamwork in achieving ambitious goals.
 
-![](/projects/ingredient-lens/IngredientLens-team.png)
+![](/projects/ingredient-lens/Ingredientlens-team.png)
 
 
 ## Resources
