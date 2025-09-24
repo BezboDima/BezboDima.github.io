@@ -1,7 +1,7 @@
 ---
 title: "Developer Internship"
 description: "IEEE | Long Branch NJ, USA"
-dateString: March 2024 - May 2024
+dateString: March 2024 - August 2024
 draft: false
 tags: ["PHP", "React", "JavaScript", "MAMP", "HTML", "MySQL"]
 showToc: false
