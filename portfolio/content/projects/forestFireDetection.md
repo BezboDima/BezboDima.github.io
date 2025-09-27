@@ -6,7 +6,7 @@ draft: false
 tags: ["Deep Learning", "Computer Vision", "Wildfire Detection", "PyTorch"]
 weight: 200
 cover:
-image: "/projects/stcnn-fire/cover_fire_stcnn.png"
+    image: "/projects/stcnn-fire/cover_fire_stcnn.png"
 ---
 <style> /* Container to maintain aspect ratio for embedded videos */ .video-container { position: relative; width: 100%; padding-bottom: 56.25%; /* 16:9 aspect ratio */ height: 0; overflow: hidden; background: #000; } .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } </style>
 I devoted my final year research project to designing and evaluating a Spatio‑Temporal Convolutional Network for segmenting wildfire regions in aerial video. This work combines a deep segmentation network with a temporal GAN to enforce cross‑frame consistency and explores attention mechanisms to improve feature extraction. The resulting framework, STCNN_FIRE, is a complete pipeline for wildfire segmentation that can process video streams in real time.
