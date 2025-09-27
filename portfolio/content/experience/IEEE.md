@@ -7,8 +7,8 @@ tags: ["PHP", "React", "JavaScript", "MAMP", "HTML", "MySQL"]
 showToc: false
 weight: 303
 cover:
-image: "/experience/IEEE/IEEE.png"
---- 
+    image: "/experience/IEEE/IEEE.png"
+---
 
 ### 🔗 [GitHub](https://gitlab.com/luobin_cui/ieee)
 
