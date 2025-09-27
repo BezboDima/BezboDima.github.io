@@ -6,6 +6,9 @@ draft: false
 tags: ["JavaScript", "React", "Figma", "Python", "CSS", "HTML"]
 showToc: false
 weight: 303
+cover:
+image: "/experience/sciquel/sciquel.jpeg"
+--- 
 --- 
 ![published notes](/experience/sciquel/sciquel.jpeg#center)
 ### Description

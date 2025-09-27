@@ -6,6 +6,8 @@ draft: false
 tags: ["Java", "Go", "XHTML","Dart"]
 showToc: false
 weight: 300
+cover:
+image: "/experience/workiva/Workiva-Logo-Zesty.png"
 --- 
 ![published notes](/experience/workiva/Workiva-Logo-Zesty.png#center)
 ### Description
