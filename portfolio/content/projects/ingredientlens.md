@@ -1,6 +1,6 @@
 ---
 title: "IngredientLens"
-description: "Application for food recognision and recepie generation"
+description: "Application for food recognition and recipe generation"
 dateString: April 2024
 draft: false
 tags: ["AWS", "Python", "Hosting", "GitHub Action", "Docker", "Bash", "TypeScript", "Next.JS"]
@@ -10,13 +10,13 @@ cover:
 ---
 
 ## Intro
-Ingredientlens was my final project, which concluded my undergratuate degree at Monmouth University. With the team of 4 people, we wanted to see if it would be possible to create application that recognizes the dish and its ingredients, which then generates the reciepe to follow in order to cook that dish, while still taking into account for user's preferences and allergies.
+Ingredientlens was my final project, which concluded my undergraduate degree at Monmouth University. With the team of 4 people, we wanted to see if it would be possible to create application that recognizes the dish and its ingredients, which then generates the recipe to follow in order to cook that dish, while still taking into account for user's preferences and allergies.
 
 ![](/projects/ingredient-lens/IngredientLens.png)
 
-So, if you want to try the app for yourself, you can check [**IngredientLens**](https://ingredientlens.net) and create your account ot chose to be incognito and just update your own picture of food or try one of the available dishes. Once the picture is uploaded you can click on **Generate Labels**. Which will give you the labels to chose from. After your choice, click **Generate Recepie**. Then a step by step recepie will be provided.
+So, if you want to try the app for yourself, you can check [**IngredientLens**](https://ingredientlens.net) and create your account ot chose to be incognito and just update your own picture of food or try one of the available dishes. Once the picture is uploaded you can click on **Generate Labels**. Which will give you the labels to chose from. After your choice, click **Generate Recipe**. Then a step by step recipe will be provided.
 
-This project is not perfect, and still requires revisions. However, me and my team are proud of the progress that we were able to achive in a small period of time. We are looking forward on improving it and potentially work on own our revised CNN to recognize more ingredients.
+This project is not perfect, and still requires revisions. However, me and my team are proud of the progress that we were able to achieve in a small period of time. We are looking forward on improving it and potentially work on own our revised CNN to recognize more ingredients.
 
 
 ![](/projects/ingredient-lens/IngredientLens-diagram.png)

@@ -1,9 +1,9 @@
 ---
-title: "Software Engineering Internship"
-description: "Workiva | Bozeman, USA"
+title: "Software Engineer"
+description: "Workiva | Seattle, USA"
 dateString: May 2025 - Current 
 draft: false
-tags: ["Java", "Go", "XHTML","Dart"]
+tags: ["Kotlin", "TypeScript", "GraphQL", "SQL", "Snowflake", "Java", "Go", "XHTML","Dart"]
 showToc: false
 weight: 300
 cover:
@@ -12,7 +12,9 @@ cover:
 ![published notes](/experience/workiva/Workiva-Logo-Zesty.png#center)
 ### Description
 
-I had the opportunity to intern with Workiva, an innovative company that develops cloud-based platforms for financial reporting, compliance, and data collaboration. During my internship, I was able to contribute to projects that directly supported Workiva’s mission of simplifying complex reporting processes for thousands of organizations worldwide.
+I joined Workiva, an innovative company that develops cloud-based platforms for financial reporting, compliance, and data collaboration, as a Software Engineer Intern in May 2025, and converted to a full-time **Software Engineer** role in December 2025. I am now based in Seattle, WA.
+
+- As a full-time Software Engineer, I develop and maintain full-stack GRC (Governance, Risk, and Compliance) product features, including history enablement, scheduling, and task notifications, using **Kotlin, TypeScript, GraphQL, SQL, and Snowflake**. I collaborate with multiple engineering teams to integrate shared APIs and libraries, and participate in on-call support and production issue triage to help maintain reliability for customer-facing systems.
 
 - During my internship at Workiva, I played a key role in improving and expanding the company’s document translation and financial reporting systems. My work spanned multiple areas of the product, from fixing critical bugs to building new features that enhanced reliability and user experience.
 
