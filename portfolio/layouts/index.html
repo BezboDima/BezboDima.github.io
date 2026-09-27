@@ -1,30 +1,41 @@
 {{- define "main" }}
 
 <section class="hero">
-    <div class="hero-media reveal">
-        {{- $imageUrl := site.Params.profileMode.imageUrl }}
-        {{- $img := resources.Get $imageUrl }}
-        {{- if $img }}
-        {{- $img = $img.Resize "440x440" }}
-        <img class="hero-photo" src="{{ $img.Permalink }}" width="220" height="220"
-            alt="{{ site.Params.profileMode.imageTitle | default site.Title }}" draggable="false">
-        {{- else }}
-        <img class="hero-photo" src="{{ $imageUrl | absURL }}" width="220" height="220"
-            alt="{{ site.Params.profileMode.imageTitle | default site.Title }}" draggable="false">
-        {{- end }}
-    </div>
-    <div class="hero-text">
-        <p class="hero-eyebrow reveal">Hi, I&rsquo;m</p>
-        <h1 class="reveal">{{ site.Params.profileMode.title | default site.Title }}</h1>
-        <p class="hero-role reveal">Software Engineer @ Workiva &middot; Seattle, WA</p>
-        <p class="hero-bio reveal">{{ site.Params.profileMode.subtitle | markdownify }}</p>
-        <div class="hero-cta reveal">
-            <a class="btn btn-primary" href="{{ "projects" | absLangURL }}">View Projects</a>
-            <a class="btn" href="{{ "blog" | absLangURL }}">Read the Blog</a>
-            <a class="btn" href="mailto:dimabezbo@gmail.com">Email Me</a>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+        <div class="hero-text">
+            <p class="status-badge reveal"><span class="status-dot"></span>Open to interesting problems</p>
+            <h1 class="reveal">{{ site.Params.profileMode.title | default site.Title }}</h1>
+            <p class="hero-role reveal">Software Engineer @ Workiva &middot; Seattle, WA</p>
+            <p class="hero-bio reveal">{{ site.Params.profileMode.subtitle | markdownify }}</p>
+            <div class="hero-cta reveal">
+                <a class="btn btn-primary" href="{{ "projects" | absLangURL }}">View Projects</a>
+                <a class="btn" href="{{ "blog" | absLangURL }}">Read the Blog</a>
+                <a class="btn" href="mailto:dimabezbo@gmail.com">Email Me</a>
+            </div>
+            <div class="reveal">
+                {{- partial "social_icons.html" -}}
+            </div>
         </div>
-        <div class="reveal">
-            {{- partial "social_icons.html" -}}
+        <div class="hero-card reveal">
+            <div class="hero-card-photo">
+                {{- $imageUrl := site.Params.profileMode.imageUrl }}
+                {{- $img := resources.Get $imageUrl }}
+                {{- if $img }}
+                {{- $img = $img.Resize "440x440" }}
+                <img src="{{ $img.Permalink }}" width="220" height="220"
+                    alt="{{ site.Params.profileMode.imageTitle | default site.Title }}" draggable="false">
+                {{- else }}
+                <img src="{{ $imageUrl | absURL }}" width="220" height="220"
+                    alt="{{ site.Params.profileMode.imageTitle | default site.Title }}" draggable="false">
+                {{- end }}
+            </div>
+            <dl class="hero-facts">
+                <div><dt>Role</dt><dd>Software Engineer</dd></div>
+                <div><dt>Company</dt><dd>Workiva</dd></div>
+                <div><dt>Location</dt><dd>Seattle, WA</dd></div>
+                <div><dt>Focus</dt><dd>Full-stack &amp; ML</dd></div>
+            </dl>
         </div>
     </div>
 </section>
@@ -32,22 +43,23 @@
 {{- $projects := where site.RegularPages "Section" "projects" }}
 {{- with first 3 $projects }}
 <section class="home-section">
-    <div class="home-section-head">
+    <div class="section-head reveal">
+        <span class="section-index">01</span>
         <h2>Featured Projects</h2>
-        <a class="home-section-link" href="{{ "projects" | absLangURL }}">View all &rarr;</a>
+        <a class="home-section-link" href="{{ "projects" | absLangURL }}">All projects &rarr;</a>
     </div>
-    <div class="home-grid">
-        {{- range . }}
-        <a class="post-entry home-card" href="{{ .Permalink }}">
+    <div class="bento-grid">
+        {{- range $i, $p := . }}
+        <a class="post-entry bento-card{{ if eq $i 0 }} bento-card-lg{{ end }}" href="{{ $p.Permalink }}">
             {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-            {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+            {{- partial "cover.html" (dict "cxt" $p "IsHome" true "isHidden" $isHidden) }}
             <header class="entry-header">
-                <h2>{{ .Title }}</h2>
+                <h2>{{ $p.Title }}</h2>
             </header>
             <div class="entry-content">
-                <p>{{ .Description }}</p>
+                <p>{{ $p.Description }}</p>
             </div>
-            {{- with .Params.tags }}
+            {{- with $p.Params.tags }}
             <div class="chip-row">
                 {{- range first 4 . }}<span class="chip">{{ . }}</span>{{- end }}
             </div>
@@ -58,12 +70,37 @@
 </section>
 {{- end }}
 
+{{- $exp := where site.RegularPages "Section" "experience" }}
+<section class="home-section">
+    <div class="section-head reveal">
+        <span class="section-index">02</span>
+        <h2>Experience</h2>
+        <a class="home-section-link" href="{{ "experience" | absLangURL }}">Full history &rarr;</a>
+    </div>
+    <div class="timeline">
+        {{- range first 4 $exp }}
+        <a class="timeline-item reveal" href="{{ .Permalink }}">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <span class="timeline-date">{{ .Param "DateString" }}</span>
+            <span class="timeline-title">{{ .Title }}</span>
+            <span class="timeline-desc">{{ .Description }}</span>
+        </a>
+        {{- end }}
+    </div>
+    <div class="stack-chips reveal">
+        {{- range (slice "Python" "Java" "Kotlin" "TypeScript" "JavaScript" "Go" "SQL" "PyTorch" "GraphQL" "React" "Spring Boot" "Snowflake" "Docker" "Kubernetes" "AWS" "Git") }}
+        <span class="chip stack-chip">{{ . }}</span>
+        {{- end }}
+    </div>
+</section>
+
 {{- $posts := where site.RegularPages "Section" "blog" }}
 {{- with first 3 $posts }}
 <section class="home-section">
-    <div class="home-section-head">
+    <div class="section-head reveal">
+        <span class="section-index">03</span>
         <h2>Recent Posts</h2>
-        <a class="home-section-link" href="{{ "blog" | absLangURL }}">View all &rarr;</a>
+        <a class="home-section-link" href="{{ "blog" | absLangURL }}">All posts &rarr;</a>
     </div>
     <div class="post-row-list">
         {{- range . }}
@@ -77,26 +114,10 @@
 </section>
 {{- end }}
 
-{{- $exp := where site.RegularPages "Section" "experience" }}
-<section class="home-section">
-    <div class="home-section-head">
-        <h2>Experience &amp; Stack</h2>
-        <a class="home-section-link" href="{{ "experience" | absLangURL }}">View all &rarr;</a>
-    </div>
-    <div class="exp-row-list">
-        {{- range first 3 $exp }}
-        <a class="exp-row reveal" href="{{ .Permalink }}">
-            <span class="exp-row-title">{{ .Title }}</span>
-            <span class="exp-row-desc">{{ .Description }}</span>
-            <span class="exp-row-date">{{ .Param "DateString" }}</span>
-        </a>
-        {{- end }}
-    </div>
-    <div class="stack-chips reveal">
-        {{- range (slice "Python" "Java" "Kotlin" "TypeScript" "JavaScript" "Go" "SQL" "PyTorch" "GraphQL" "React" "Spring Boot" "Snowflake" "Docker" "Kubernetes" "AWS" "Git") }}
-        <span class="chip stack-chip">{{ . }}</span>
-        {{- end }}
-    </div>
+<section class="home-cta reveal">
+    <h2>Let&rsquo;s build something.</h2>
+    <p>Always happy to talk engineering, machine learning, or tennis.</p>
+    <a class="btn btn-primary btn-lg" href="mailto:dimabezbo@gmail.com">dimabezbo@gmail.com</a>
 </section>
 
 {{- end }}
