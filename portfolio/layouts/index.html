@@ -1,0 +1,102 @@
+{{- define "main" }}
+
+<section class="hero">
+    <div class="hero-media reveal">
+        {{- $imageUrl := site.Params.profileMode.imageUrl }}
+        {{- $img := resources.Get $imageUrl }}
+        {{- if $img }}
+        {{- $img = $img.Resize "440x440" }}
+        <img class="hero-photo" src="{{ $img.Permalink }}" width="220" height="220"
+            alt="{{ site.Params.profileMode.imageTitle | default site.Title }}" draggable="false">
+        {{- else }}
+        <img class="hero-photo" src="{{ $imageUrl | absURL }}" width="220" height="220"
+            alt="{{ site.Params.profileMode.imageTitle | default site.Title }}" draggable="false">
+        {{- end }}
+    </div>
+    <div class="hero-text">
+        <p class="hero-eyebrow reveal">Hi, I&rsquo;m</p>
+        <h1 class="reveal">{{ site.Params.profileMode.title | default site.Title }}</h1>
+        <p class="hero-role reveal">Software Engineer @ Workiva &middot; Seattle, WA</p>
+        <p class="hero-bio reveal">{{ site.Params.profileMode.subtitle | markdownify }}</p>
+        <div class="hero-cta reveal">
+            <a class="btn btn-primary" href="{{ "projects" | absLangURL }}">View Projects</a>
+            <a class="btn" href="{{ "blog" | absLangURL }}">Read the Blog</a>
+            <a class="btn" href="mailto:dimabezbo@gmail.com">Email Me</a>
+        </div>
+        <div class="reveal">
+            {{- partial "social_icons.html" -}}
+        </div>
+    </div>
+</section>
+
+{{- $projects := where site.RegularPages "Section" "projects" }}
+{{- with first 3 $projects }}
+<section class="home-section">
+    <div class="home-section-head">
+        <h2>Featured Projects</h2>
+        <a class="home-section-link" href="{{ "projects" | absLangURL }}">View all &rarr;</a>
+    </div>
+    <div class="home-grid">
+        {{- range . }}
+        <a class="post-entry home-card" href="{{ .Permalink }}">
+            {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+            {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+            <header class="entry-header">
+                <h2>{{ .Title }}</h2>
+            </header>
+            <div class="entry-content">
+                <p>{{ .Description }}</p>
+            </div>
+            {{- with .Params.tags }}
+            <div class="chip-row">
+                {{- range first 4 . }}<span class="chip">{{ . }}</span>{{- end }}
+            </div>
+            {{- end }}
+        </a>
+        {{- end }}
+    </div>
+</section>
+{{- end }}
+
+{{- $posts := where site.RegularPages "Section" "blog" }}
+{{- with first 3 $posts }}
+<section class="home-section">
+    <div class="home-section-head">
+        <h2>Recent Posts</h2>
+        <a class="home-section-link" href="{{ "blog" | absLangURL }}">View all &rarr;</a>
+    </div>
+    <div class="post-row-list">
+        {{- range . }}
+        <a class="post-row reveal" href="{{ .Permalink }}">
+            <span class="post-row-date">{{ .Param "DateString" }}</span>
+            <span class="post-row-title">{{ .Title }}</span>
+            <span class="post-row-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        {{- end }}
+    </div>
+</section>
+{{- end }}
+
+{{- $exp := where site.RegularPages "Section" "experience" }}
+<section class="home-section">
+    <div class="home-section-head">
+        <h2>Experience &amp; Stack</h2>
+        <a class="home-section-link" href="{{ "experience" | absLangURL }}">View all &rarr;</a>
+    </div>
+    <div class="exp-row-list">
+        {{- range first 3 $exp }}
+        <a class="exp-row reveal" href="{{ .Permalink }}">
+            <span class="exp-row-title">{{ .Title }}</span>
+            <span class="exp-row-desc">{{ .Description }}</span>
+            <span class="exp-row-date">{{ .Param "DateString" }}</span>
+        </a>
+        {{- end }}
+    </div>
+    <div class="stack-chips reveal">
+        {{- range (slice "Python" "Java" "Kotlin" "TypeScript" "JavaScript" "Go" "SQL" "PyTorch" "GraphQL" "React" "Spring Boot" "Snowflake" "Docker" "Kubernetes" "AWS" "Git") }}
+        <span class="chip stack-chip">{{ . }}</span>
+        {{- end }}
+    </div>
+</section>
+
+{{- end }}

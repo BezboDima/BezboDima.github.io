@@ -54,7 +54,9 @@
 {{- $class := "post-entry" }}
 
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+{{- if (and (eq .Section "projects") (eq $index 0) (not $term)) }}
+{{- $class = "post-entry featured-entry" }}
+{{- else if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
 {{- $class = "first-entry" }}
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
@@ -73,6 +75,11 @@
   {{- if (ne (.Param "hideDescriptionInList") true) }}
   <div class="entry-content">
     <p>{{ .Description }}</p>
+  </div>
+  {{- end }}
+  {{- with .Params.tags }}
+  <div class="chip-row">
+    {{- range first 5 . }}<span class="chip">{{ . }}</span>{{- end }}
   </div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}

@@ -2,7 +2,7 @@
 (function () {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-    var targets = document.querySelectorAll('.post-entry, .page-header, .profile_inner > *');
+    var targets = document.querySelectorAll('.post-entry, .page-header, .reveal');
     if (!targets.length) return;
 
     targets.forEach(function (el) { el.classList.add('reveal'); });
